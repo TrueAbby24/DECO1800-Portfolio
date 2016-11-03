@@ -1,0 +1,125 @@
+/*Base*/
+
+body{
+	background-color:  #737373;
+	color: white;
+	font-family: 'Slabo 27px', serif;
+}
+
+h1,h2,h3,h4, nav, blockquote{
+	font-family: 'IM Fell English SC', serif;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+
+.content{
+	background: rgb(34,34,34); /* for IE */
+	background: rgba(34,34,34,0.65);
+	margin: 15px;
+	padding:  10px;
+	padding-top: 30px;
+	padding-left: 15px;
+	border-radius: 5px;
+
+}
+
+.content > *{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;;
+}
+.bgimage h1{
+	color:  white;
+}
+
+.bgimage{
+	background-image: url('../images/african_landscape2.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 250px;
+	background-size: 100%;
+}
+
+.bghome{
+	height: 600px;
+}
+
+#clearfix{
+	overflow: auto;
+}
+
+/*NAVBAR STYLING*/
+.navbar-brand > image{
+	padding: 0.5px;
+	background-color: blue;
+	border-radius: 3px;
+}
+
+/*FOOTER*/
+.footer{
+	background-color: #4d4d4d;
+	padding: 5px;
+	color: white;
+	/*position: absolute;*/
+	bottom: 0;
+	width: 100%;
+	height: 5%;
+}
+
+/**************************************/
+
+/*HOME PAGE*/
+.blockquote{
+	text-align: center; 
+	color: white;
+
+	background: rgb(34,34,34); /* for IE */
+	background: rgba(34,34,34,0.65);
+		
+	z-index : 100;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	width: 50%; 
+	height: 20%;
+
+	
+	padding: 40px;
+	border-radius: 25px;
+}
+/*******************/
+
+/*ABOUT PAGE*/
+
+#person{
+	height: 400px;
+	width: auto;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.4);
+	float: left;
+	margin: 10px;
+	border: 1px #97999e solid;
+}
+
+#person > img{
+	height: 100%;
+	border: 1px #97999e solid;
+}
+
+.no-style{
+	list-style: none;
+}
+
+/*************/
+/*PARTS*/
+#parts .content{
+	margin: 20px;
+}
+
+/*MISC*/
+
+
+
